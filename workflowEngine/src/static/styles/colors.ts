@@ -1,0 +1,10 @@
+export const clean = '#fff';
+export const gray = '#aaa';
+export const darkGray = '#4c4b43';
+export const lightGray = '#e8e8e8';
+export const sand = '#f8f8f5';
+export const dark = '#333';
+export const grass = '#63d27f';
+export const defaultGray = '#dfdfde';
+export const secondaryGray = '#ccc';
+export const sea = '#2a64d5';

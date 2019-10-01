@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CoreClassificationPane accessible="true">
+  <setup mark_complete="true">
+    <reset_button><![CDATA[Reset]]></reset_button>
+    <complete_msg><![CDATA[Case Saved]]></complete_msg>
+    <correct_feedback><![CDATA[Congratulations! You have successfully classified and saved your case for this simulation.]]></correct_feedback>
+    <choice_msg><![CDATA[Your selection:]]></choice_msg>
+    <incorrect_feedback><![CDATA[You have not selected the correct item for this scenario. Please review the scenario and try re-selecting.]]></incorrect_feedback>
+    <!-- Selection will be inserted to the beginning of this sentence -->
+    <missing_title><![CDATA[Review Troubleshooting Section]]></missing_title>
+    <incomplete_feedback><![CDATA[You have missed a troubleshooting selection or a required text field. Please try again.]]></incomplete_feedback>
+    <disabled_title><![CDATA[Disabled UI Element]]></disabled_title>
+    <disabled_msg><![CDATA[The element selected has been disabled in this simulation. Please try another element.]]></disabled_msg>
+    <feedback_close_button><![CDATA[Close]]></feedback_close_button>
+    <restart_interaction_button><![CDATA[Restart]]></restart_interaction_button>
+    <accessibility_labels>
+      <magnifiying_glass_icon><![CDATA[Search]]></magnifiying_glass_icon>
+      <close_button><![CDATA[Close the search field]]></close_button>
+      <next_required_button><![CDATA[Next required item]]></next_required_button>
+      <prev_required_button><![CDATA[Previous required item]]></prev_required_button>
+      <escape_text><![CDATA[Press the escape key to close this message.]]></escape_text>
+      <enter_search_results><![CDATA[Search Affected Product. Instructions: type in your search word and press the down arrow key to enter search results.]]></enter_search_results>
+      <classification_pane_header_label><![CDATA[Support]]></classification_pane_header_label>
+      <support_topic_label><![CDATA[Support Topic]]></support_topic_label>
+      <case_contact_section_label><![CDATA[Case Contact]]></case_contact_section_label>
+      <first_name_input_label><![CDATA[First Name]]></first_name_input_label>
+      <last_name_input_label><![CDATA[Last Name]]></last_name_input_label>
+      <phone_input_label><![CDATA[Phone]]></phone_input_label>
+      <email_input_label><![CDATA[E-mail]]></email_input_label>
+      <product_services_section_label><![CDATA[Product & Services]]></product_services_section_label>
+      <show_filter_product_gallery_button><![CDATA[Show filter (Product Gallery)]]></show_filter_product_gallery_button>
+      <close_add_product><![CDATA[Close (Add product)]]></close_add_product>
+      <show_filter_affected_product_button><![CDATA[Show filter (Affected Product)]]></show_filter_affected_product_button>
+      <hide_filter_affected_product_button><![CDATA[Hide filter (Affected Product)]]></hide_filter_affected_product_button>
+      <affected_product_label><![CDATA[Affected Product]]></affected_product_label>
+      <affected_product_gallery><![CDATA[Affected Product Gallery]]></affected_product_gallery>
+      <show_filter_component_issue_button><![CDATA[Show filter (Component & Issue)]]></show_filter_component_issue_button>
+      <hide_filter_component_issue_button><![CDATA[Hide filter (Component & Issue)]]></hide_filter_component_issue_button>
+      <component_issue_section_label><![CDATA[Component & Issue]]></component_issue_section_label>
+      <component_section_label><![CDATA[Components]]></component_section_label>
+      <issue_section_label><![CDATA[Issues]]></issue_section_label>
+      <tooltip_button><![CDATA[Help]]></tooltip_button>
+      <tooltip_instructions><![CDATA[Press the tab key to expand more information about this issue.]]></tooltip_instructions>
+      <selected_label><![CDATA[Selected]]></selected_label>
+      <required_label><![CDATA[Required]]></required_label>
+      <toolbar_label><![CDATA[Toolbar]]></toolbar_label>
+      <show_dashboard_button_title><![CDATA[Show Dashboard]]></show_dashboard_button_title>
+      <hide_sidebar_button_title><![CDATA[Hide Sidebar]]></hide_sidebar_button_title>
+      <research_button_title><![CDATA[Research]]></research_button_title>
+      <search_button_title><![CDATA[Search]]></search_button_title>
+      <my_cases_button_title><![CDATA[My Cases]]></my_cases_button_title>
+      <my_workbins_button_title><![CDATA[My Workbins]]></my_workbins_button_title>
+      <scheduled_learning_button_title><![CDATA[Scheduled Learning]]></scheduled_learning_button_title>
+      <my_learning_button_title><![CDATA[My Learning]]></my_learning_button_title>
+      <knowledge_base_button_title><![CDATA[Knowledge Base]]></knowledge_base_button_title>
+      <content_area_label><![CDATA[Content Area]]></content_area_label>
+      <case_view_label><![CDATA[Case View]]></case_view_label>
+      <case_logging_label><![CDATA[Case Logging]]></case_logging_label>
+      <main_label><![CDATA[Main]]></main_label>
+      <notes_label><![CDATA[Notes]]></notes_label>
+      <recommended_solutions_label><![CDATA[Recommended Solutions]]></recommended_solutions_label>
+      <troubleshooting_label><![CDATA[Troubleshooting]]></troubleshooting_label>
+      <consult_with_another_advisor_label><![CDATA[Consult with Another Advisor]]></consult_with_another_advisor_label>
+      <resolution_label><![CDATA[Resolution]]></resolution_label>
+      <case_actions_label><![CDATA[Case Actions]]></case_actions_label>
+      <proctor_window_label><![CDATA[Prodctor Window]]></proctor_window_label>
+      <close_proctor_window_label><![CDATA[Close Prodctor Window]]></close_proctor_window_label>
+      <back_label><![CDATA[Back]]></back_label>
+      <restart_simulation_label><![CDATA[Restart Simulation]]></restart_simulation_label>
+    </accessibility_labels>
+    <dropdown_default><![CDATA[Select...]]></dropdown_default>
+  </setup>
+  <data>
+    <topic>
+      <message><![CDATA[All fields are required unless marked otherwise.]]></message>
+      <field>
+        <name><![CDATA[topic]]></name>
+        <placeholder><![CDATA[Enter topics or create a new one]]></placeholder>
+        <icon><![CDATA[Required]]></icon>
+        <errorMessage><![CDATA[You cannot leave this field empty]]></errorMessage>
+        <defaultValue />
+        <requiredValue><![CDATA[Apple]]></requiredValue>
+      </field>
+    </topic>
+    <caseContact>
+      <expand>
+        <label><![CDATA[Case Contact (Optional)]]></label>
+      </expand>
+      <fields>
+        <element type="input">
+          <label><![CDATA[Case Contact]]></label>
+          <field>
+            <placeholder><![CDATA[Enter First Name (Optional)]]></placeholder>
+            <defaultValue><![CDATA[Samantha]]></defaultValue>
+          </field>
+          <field>
+            <placeholder><![CDATA[Enter Last Name (Optional)]]></placeholder>
+            <defaultValue><![CDATA[Appleseed]]></defaultValue>
+          </field>
+        </element>
+        <element type="input">
+          <label><![CDATA[Phone]]></label>
+          <field>
+            <placeholder><![CDATA[Enter phone (Optional)]]></placeholder>
+            <defaultValue><![CDATA[408-555-0100]]></defaultValue>
+          </field>
+        </element>
+        <element type="input">
+          <label><![CDATA[Email]]></label>
+          <field>
+            <placeholder><![CDATA[Enter Email (Optional)]]></placeholder>
+            <defaultValue><![CDATA[samantha_appleseed_ac@icloud.com]]></defaultValue>
+          </field>
+        </element>
+      </fields>
+    </caseContact>
+    <linkSerial>
+      <expand>
+        <label><![CDATA[Link serial to case (Optional)]]></label>
+      </expand>
+      <label><![CDATA[What does the customer need help with?]]></label>
+      <labelHint><![CDATA[optional]]></labelHint>
+      <productResults>
+        <addProduct><![CDATA[Add a different product to case.]]></addProduct>
+        <getSerial><![CDATA[Get Serial Number]]></getSerial>
+        <results><![CDATA[0 products found.]]></results>
+        <placeholder><![CDATA[Search Products by Serial Number, IMEI, MEID, CTN]]></placeholder>
+      </productResults>
+    </linkSerial>
+    <affectedProducts>
+      <label><![CDATA[Affected Product]]></label>
+      <search>
+        <placeholder><![CDATA[Search Affected Product]]></placeholder>
+        <errorMessage><![CDATA[Choose an option from the menu]]></errorMessage>
+      </search>
+      <product img="images/icloud.png" displayId="icloud">
+        <name><![CDATA[iCloud]]></name>
+        <components>
+          <component>
+            <name><![CDATA[Back to My Mac]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Back to My Mac setup and info]]></name>
+                <!-- <tooltip_text><![CDATA[Optional tooltip goes here]]></tooltip_text> -->
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot connect]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Connected but have problem]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Back to My Mac issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Backup and Restore]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Backup Issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[How to Backup/Restore]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Backup/Restore issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Restore Issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Bookmarks and Safari Syncing]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Bookmarks/Safari Tab data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Bookmarks/Safari Tab setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Clients show different data]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Bookmarks/Safari Tab issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Calendar]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Attachments issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Calendar Alarm/Alert issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Calendar data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Calendar duplicates]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Calendar setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Calendar Spam]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access Calendar]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Clients show different data]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Calendar issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Shared Calendar / Events issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Contacts]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access Contacts]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[CardDAV clients show different data]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Contacts data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Contacts duplicates]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Contacts setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Contacts issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Find My [Device]]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Activation Lock Issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot locate device]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot wipe/lock/send message]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Find My [Device] setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Find My [Device] issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Unauthorized Action]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Find My Friends]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot locate]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Find My Friends setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Hide from Followers issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Issue with Temporary Sharing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Find My Friends issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Sending or Accepting Follow requests]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud Account]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Add Specific Password]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud account closure]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud account sign up issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud data security issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[icloud.com account settings]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Login issue (iCloud Only)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Manage/purchase iCloud storage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - iCloud account issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud Drive]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[3rd party iCloud Drive issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Docs & Data (legacy) issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Drive changes not pushing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Drive data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Drive setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Drive Storage issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Migration to iCloud Drive]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud Family Sharing]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Adding / deleting a family member]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Child account issues]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Creating a family]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Leave / Switch families]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Subscription and Sharing issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud for Windows]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Installation/Removal]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Launching iCloud for Win issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud Keychain]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access device to iCloud Keychain]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Devices out of sync]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Keychain data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud Keychain setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - iCloud Keychain issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Passwords/credit cards not auto-filling]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[User wants to delete iCloud Keychain]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud Storage Plan]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Apple Employee Storage Issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Billing Issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Manage iCloud Storage Plan]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Purchase iCloud Storage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Redeem iCloud Storage offer]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[iCloud System Preferences (macOS)]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot log in]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot log out]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Duplicate listed in Internet Account]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Repeated password prompt]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Mail]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access Mail]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Email aliases issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Emails not received / delayed receipt]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Emails not sent / delayed send]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Junk / Spam / Phishing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Mail data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Mail Drop attachments]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Mail setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Mail issue]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Messages in iCloud]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot enable/disable Messages in iCloud]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Messages data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Messages in iCloud quota usage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Messages not syncing]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Notes]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access Notes]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Notes data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Notes not syncing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Notes setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Notes issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Upgrade]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Photos]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud - Other Photos issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud - Photos data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud - Photos not updating]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud - Photos setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[iCloud - Removing photos]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Reminders]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Cannot access Reminders]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Clients show different data]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Other - Reminders issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Reminder Alarm/Alert issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Reminders data loss]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Reminders duplicates]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Reminders setup and info]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="icloud0">
+                <name><![CDATA[Shared Reminders issue]]></name>
+              </issue>
+            </issues>
+          </component>
+        </components>
+      </product>
+      <product img="images/apple-id.png" displayId="apple_id">
+        <name><![CDATA[Apple ID]]></name>
+        <components>
+          <component>
+            <name><![CDATA[Apple ID creation]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Account creation rejected]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Account creation rejected - iTunes Store]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Account name already in use]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Account name not accepted]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Verification code not accepted]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Verification code was not received]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Apple ID Sign-In Issues]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Account Recovery inquiry (Two-factor)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Did not receive phone call (Two-factor)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Forgotten Apple ID name]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Inaccurate sign-in location (Two-factor)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Lost/forgotten password]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Other sign-in issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Prompted for verification code]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Verification code not received]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Blocked or Disabled]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Apple ID disabled for other reasons]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Apple ID Disabled for Security Reasons]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Sign in blocked 24 hours (Two-factor)]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Compromised Account]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Activation Lock Issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Other compromised account issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Phishing attempt]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Unauthorized changes to Apple ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Unauthorized FMIP Action]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Unauthorized iTunes/App Store purchase]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Data & Privacy]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Customer Data Request]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Deactivation]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Deletion]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Other]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Edit/Manage Account]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Change Apple ID account name]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Change Apple ID account security type]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Edit/add personal info for Apple ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Issues with appleid.apple.com website]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Lost recovery key (Two-step)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Request to delete/transfer Apple ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Request to merge Apple ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Request to reactivate Apple ID]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Security Questions/Answers]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Cannot reset security questions]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Does not remember setting up questions]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Forgot answer to security questions]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="apple_id0">
+                <name><![CDATA[Security Questions Cannot be Saved]]></name>
+              </issue>
+            </issues>
+          </component>
+        </components>
+      </product>
+      <product img="images/iphonexs.png" displayId="iphone_xs">
+        <name><![CDATA[iPhone X]]></name>
+        <components>
+          <component>
+            <name><![CDATA[Accessibility]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Accessibility Feature Request]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Hearing (Other)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Interaction (Other)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Media]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[MFI Hearing Devices]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Switch Control]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Vision (Other)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[VoiceOver]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Zoom]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Accessories]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[3rd-Party Accessory]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Accessory not made for device]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Component AV Cable]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Composite AV Cable]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Headset/Headphones]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple iPhone Case]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple iPhone Dock]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Lightning Accessories]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Power Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Wireless Keyboard]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lightning Digital AV Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lightning to 30-pin Adapater]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lightning to USB Cable]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lightning VGA Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[REP European 5W USB Power Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[USB to Dock Connector Cable]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Apple Apps]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Activity]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Airport Utility]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Animoji/Memoji]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[App Store]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Watch]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Books]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calculator]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calendar]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Clock]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Compass]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Contacts]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[FaceTime]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Files]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Find (device)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Find My Friends]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Health]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Home]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iCloud Drive]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iTunes Movie Trailers]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iTunes Store]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iTunes U]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Mail]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Maps]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Measure]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Messages]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Music]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[News]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Notes]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Other Apple App]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Podcasts]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Reminders]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Safari]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Stocks]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Support App]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Tips]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Videos/TV]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Voice Memos]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Wallet/Passbook]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Weather]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Apple Pay]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Pay Disabled]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Credit/Debit/Prepaid Card Issues]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lost device (suspend cards)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Reset for HW return]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Reset for troubleshoot]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Student ID Card Issues (US Only)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Suspicious Activity]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Transit Card Issues (Japan and China)]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Apple Pay Cash (US Only)]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Add Money]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Pay Cash Transaction (In Store)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Pay Cash Transaction (in Websites)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Apple Pay Cash Transaction (Within Apps)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Disputes or Unauthorized Charges]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Manage Account]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Restricted or Locked Account]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Rewards]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Send/Receive/Request Apple Pay Cash]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Transfer Money to Bank]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unusual Activity]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Verify Identity]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Backup/Migrate/Update/Restore]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Backup device to iTunes]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Erase all content and settings]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[From Android to iOS device]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iOS SW Update / iOS SW Restore]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Migrate/Restore iTunes Backup]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Bluetooth/Wi-Fi]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Bluetooth]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Wi-Fi]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Buttons and Switches]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Side / Sleep-Wake Button]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Switch - Ringer/Silent]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Volume Buttons]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Camera/Flash]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Camera - App Only]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Camera - Front (Hardware)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Camera - Rear (Hardware)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[LED Flash]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Cellular/Phone]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Activation / Sim not supported]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Billing and Account]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Call Forwarding / Caller ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Audio Quality]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Calls on Other Devices]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Dropped/Failed Call]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Making calls]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Receiving calls]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - VoLTE]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calls - Wi-Fi Calling]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Cellular Data (2G/3G/4G/LTE)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Cellular Update Failed Alert]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Emergency Call / SOS]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[eSIM/Dual SIM Set Up]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[International / Roaming]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Internet (2G/3G data)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Invalid SIM]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Invalid SIM/Invalid eSIM]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[iOS Instant Hotspot]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No Service / Searching]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No SIM]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No SIM/No eSIM]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Personal Hotspot]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Ringer (vibration)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Signal Strength (Poor)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unlocking]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Voicemail]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Customer Sensory Issues]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Rattling noise when shaken/tapped: Unit]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Temperature perception: AC Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Temperature perception: Unit]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unexpected Alert Noise]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unexpected noise (not an alert)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unusually noisy: Unit]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Display]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[3D Touch]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Blank Black Screen - Power On]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Blank White Screen - Power On]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Brightness/Backlight Issues]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Calibration Unsuccessful]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Display Loose]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Display Produces Clicking Noise]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Flickering / Flashing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Image Quality]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lines/Blocks/Bands]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Multi-touch]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Pixel/Dark Spot/Foreign Material]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Face ID/ Touch ID]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enrolling Face ID / Touch ID]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Face ID Disabled / Touch ID Grayed out]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unlock-Authenticate Face ID / Touch ID]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Features/Settings]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Accessibility]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[AirDrop]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Airplane mode]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[AirPlay]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[AirPrint]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[App Handoff]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[CarPlay]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Control Center]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Date and Time]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Home/Lock Screen]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[HomeKit]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[International/Region Format]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Keyboard]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Multitasking / Drag & Drop]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Night Shift]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Notifications/Do Not Disturb]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Passcode Lock/Auto-Lock]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Privacy/Location Services]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Screen Time / Restrictions]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Search]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Siri/Siri Shortcuts]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[System Sounds]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[True Tone]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[TV Provider Sign In]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Physical Damage]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Button/Switch (Damage)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Camera Lens (Damage)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Counterfeit device (suspected)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Diagnostic Fee (Singapore/Shenzhen only)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Display - Multiple cracks]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Display - Single hairline crack]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Dock connector on device]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enclosure - Bent]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enclosure - Bubbling]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enclosure - dent/scratch]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enclosure - discoloration]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Enterprise entitled replacement]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Headphone / Headset port]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Liquid Damage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Lost iPhone Reported]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Physical Damage During Repair]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Rear-Glass Multiple Cracks]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Rear-Glass Single Crack]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[SIM tray]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Speaker/Mic/Receiver (Damage)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Swollen battery]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Power]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Battery Life/Performance]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[REP AC Wall Plug Adapter]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[REP Battery Shutdown]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[REP Battery Shutdown (Multi issue)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unexpected power off]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Will Not Power On / Wired Charging]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Safety]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Fire]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Leakage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Sharp Edges]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Smoke]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Spark / Shock]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unusual Heat]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unusual Smell]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Sensors]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Accelerometer/Gyro/Barometer]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Ambient Light Sensor (ALS)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Proximity Sensor]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Sound]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No Sound - Headset Connector]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No sound - Mic]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No sound - Receiver]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No sound - Speaker]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Sound quality - Headset Connector]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Sound quality - Mic]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Sound quality - Receiver]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Sound quality - Speaker]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[System Sounds]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[System-wide Issues]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Alert Screen]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Capacity/Low disk space]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Capacity/Storage Usage]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Device not seen in iTunes]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Device running slowly]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Frozen - Apple Logo]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Frozen - Multiple Applications]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Low Disk Space]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Power On - Device Unresponsive]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Unexpected Restart]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Third Party Apps (Non Apple Apps)]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Adjust App cellular data usage setting]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Adjust App Notification / Alert setting]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Delete / Remove App]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Download / Install App]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Launch / Locate App]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Other]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Pop-Ups, Redirects, or Phishing]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Report Content / Quality issue]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Spam Phone Call / SMS blocking]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Update App]]></name>
+              </issue>
+            </issues>
+          </component>
+          <component>
+            <name><![CDATA[Vibration/Haptics]]></name>
+            <issues>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[No Vibration / No Haptic (Taptic)]]></name>
+              </issue>
+              <issue correct="true" troubleshootId="iphone_x0">
+                <name><![CDATA[Weak Vibration / Weak Haptic (Taptic)]]></name>
+              </issue>
+            </issues>
+          </component>
+        </components>
+      </product>
+      <product img="images/apple.png" displayId="non_technical">
+        <name><![CDATA[Non-technical Issue]]></name>
+      </product>
+    </affectedProducts>
+    <componentsAndIssues>
+      <defaultText><![CDATA[Select an Affected Product above to view the list.]]></defaultText>
+      <label><![CDATA[Component & Issues]]></label>
+      <search>
+        <placeholder><![CDATA[Search Issues]]></placeholder>
+        <errorMessage><![CDATA[Choose an option from the menu]]></errorMessage>
+      </search>
+    </componentsAndIssues>
+    <troubleShooting>
+      <expand>
+        <name><![CDATA[troubleshoot]]></name>
+        <label><![CDATA[Continue to Troubleshooting]]></label>
+      </expand>
+      <!-- BEGIN: iCloud troubleshooting steps -->
+      <set id="icloud0">
+        <element type="input" name="affectedAppleId">
+          <label><![CDATA[Affected Apple ID]]></label>
+          <field>
+            <placeholder><![CDATA[Affected Apple ID]]></placeholder>
+            <defaultValue><![CDATA[samantha_appleseed_ac@icloud.com]]></defaultValue>
+          </field>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Reminder: Vote on an existing tracked issue or create a new one in Core Issue Tracker for this case. See <a href="https://ilog-cdn-t2.corp.apple.com/chrysalis/case-logging/index.html#" target="_blank">CP1397</a>.]]></content>
+        </element>
+        <element type="dropdown" name="osType" hasNested="Yes">
+          <label><![CDATA[Is the customer using iCloud with iOS, macOS, or Windows?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true" troubleshootId="icloud1">
+              <value><![CDATA[iCloud with iOS]]></value>
+            </option>
+            <option correct="true" troubleshootId="icloud2">
+              <value><![CDATA[iCloud with macOS]]></value>
+            </option>
+            <option correct="true" troubleshootId="icloud3">
+              <value><![CDATA[iCloud with Windows]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with both iOS and macOS]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with both iOS and watchOS]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with both iOS and Windows]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with iOS, macOS, and watchOS]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with iOS, macOS, and Windows]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with both macOS and watchOS]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with both macOS and Windows]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud with watchOS]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[None of the above]]></value>
+            </option>
+          </options>
+        </element>
+        <element type="consult_buttons" name="consultButton">
+          <label><![CDATA[Consult with Another Advisor]]></label>
+          <buttons>
+            <button correct="true">
+              <value><![CDATA[No Consult]]></value>
+            </button>
+            <button>
+              <value><![CDATA[Consult]]></value>
+            </button>
+          </buttons>
+        </element>
+        <element type="dropdown" name="resolution">
+          <label><![CDATA[Resolution]]></label>
+          <options>
+            <option correct="true">
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Resolved - Expected product behavior (How to)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Resolved - Unexpected product behavior (Bug)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Hardware repair needed]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Referred customer (not hardware repair)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - no solution offered]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - Pending Advisor Commitment]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - solution offered]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <set id="icloud1">
+        <element type="dropdown" name="iOSVersion">
+          <label><![CDATA[What version of iOS?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iOS 11.4]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iOS 11.3.1]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iOS 11.3]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <set id="icloud2">
+        <element type="dropdown" name="macVersion">
+          <label><![CDATA[What version of macOS?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[10.13.x]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[10.12.x]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[10.11.x]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <set id="icloud3">
+        <element type="dropdown" name="winVersion">
+          <label><![CDATA[What version of Windows?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Windows 10]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Windows 8]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Windows 7]]></value>
+            </option>
+          </options>
+        </element>
+        <element type="dropdown" name="iCloudVersion">
+          <label><![CDATA[What is the installed version of iCloud for Windows / iCloud Control Panel?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[7.0]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[6.2.2]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[6.2.1]]></value>
+            </option>
+          </options>
+        </element>
+        <element type="dropdown" name="useOutlook">
+          <label><![CDATA[Is the customer using Microsoft Outlook?]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Yes]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[No]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <set id="icloud4">
+        <element type="callout">
+          <content><![CDATA[Standard Apple ID having 2 or 3 security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="icloud5">
+        <element type="callout">
+          <content><![CDATA[Higher security Apple ID that uses verification code, trusted phone number and trusted device. These accounts do not have security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="icloud6">
+        <element type="callout">
+          <content><![CDATA[Higher security Apple ID that uses Recovery Key, verification code, trusted phone number and trusted device. These accounts do not have security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="icloud7">
+        <element type="textarea" required="true">
+          <label><![CDATA[Please describe]]></label>
+        </element>
+      </set>
+      <!-- END: iCloud troubleshooting steps -->
+      <!-- BEGIN: Apple ID troubleshooting steps -->
+      <set id="apple_id0">
+        <element type="input" name="affectedAppleId">
+          <label><![CDATA[Affected Apple ID]]></label>
+          <field>
+            <placeholder><![CDATA[Affected Apple ID]]></placeholder>
+            <defaultValue><![CDATA[samantha_appleseed_ac@icloud.com]]></defaultValue>
+            <requiredValue><![CDATA[samantha_appleseed_ac@icloud.com]]></requiredValue>
+          </field>
+        </element>
+        <element type="dropdown" name="appleIdSecurityType">
+          <label><![CDATA[Verify Customer's "Apple ID Security" type in iCloud Support App:]]></label>
+          <options>
+            <option>
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id1">
+              <value><![CDATA[Apple ID for Students]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id2">
+              <value><![CDATA[Legacy]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id3">
+              <value><![CDATA[Managed Apple ID]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id4">
+              <value><![CDATA[Secondary Authentication]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id5">
+              <value><![CDATA[Two-Factor Authentication]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id6">
+              <value><![CDATA[Two-Step Verification]]></value>
+            </option>
+          </options>
+        </element>
+        <element type="dropdown" name="affectedService">
+          <label><![CDATA[What service is affected with the Apple ID issue?]]></label>
+          <options>
+            <option correct="true">
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Apple ID (appleid.apple.com)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[FaceTime]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Find my (Device) (includes Activation Lock)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Game Center]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iCloud]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[iTunes Store, App Store, Mac App Store, iBookstore]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Messages]]></value>
+            </option>
+            <option correct="true" troubleshootId="apple_id7">
+              <value><![CDATA[Other]]></value>
+            </option>
+          </options>
+        </element>
+        <element type="consult_buttons" name="consultButton">
+          <label><![CDATA[Consult with Another Advisor]]></label>
+          <buttons>
+            <button correct="true">
+              <value><![CDATA[No Consult]]></value>
+            </button>
+            <button>
+              <value><![CDATA[Consult]]></value>
+            </button>
+          </buttons>
+        </element>
+        <element type="dropdown" name="resolution">
+          <label><![CDATA[Resolution]]></label>
+          <options>
+            <option correct="true">
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Logged complaint/compliment]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Provided information]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Processed order]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Referred Customer]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Resolved]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - Pending Advisor Commitment]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <set id="apple_id1">
+        <element type="callout">
+          <content><![CDATA[This is a student (U13) account created by an educational institution. Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+      </set>
+      <set id="apple_id2">
+        <element type="callout">
+          <content><![CDATA[Standard Apple ID having 1 security question and answer. Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="apple_id3">
+        <element type="callout">
+          <content><![CDATA[Apple ID created, managed and owned by an Education institution. Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+      </set>
+      <set id="apple_id4">
+        <element type="callout">
+          <content><![CDATA[Standard Apple ID having 2 or 3 security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="apple_id5">
+        <element type="callout">
+          <content><![CDATA[Higher security Apple ID that uses verification code, trusted phone number and trusted device. These accounts do not have security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="apple_id6">
+        <element type="callout">
+          <content><![CDATA[Higher security Apple ID that uses Recovery Key, verification code, trusted phone number and trusted device. These accounts do not have security question(s) and answer(s). Please see <a href="ilog://articleId=CP1403" target="_blank">CP1403</a> for guidance.]]></content>
+        </element>
+        <element type="callout">
+          <content><![CDATA[Follow <a href="ilog://articleId=CP1389" target="_blank">Handling Apple ID Password and Security Questions</a> to troubleshoot the issue.]]></content>
+        </element>
+      </set>
+      <set id="apple_id7">
+        <element type="textarea" required="true">
+          <label><![CDATA[Please describe]]></label>
+        </element>
+      </set>
+      <!-- END: Apple ID troubleshooting steps -->
+      <!-- BEGIN: iPhone X troubleshooting steps -->
+      <set id="iphone_x0">
+        <element type="consult_buttons" name="consultButton">
+          <label><![CDATA[Consult with Another Advisor]]></label>
+          <buttons>
+            <button correct="true">
+              <value><![CDATA[No Consult]]></value>
+            </button>
+            <button>
+              <value><![CDATA[Consult]]></value>
+            </button>
+          </buttons>
+        </element>
+        <element type="dropdown" name="resolution">
+          <label><![CDATA[Resolution]]></label>
+          <options>
+            <option correct="true">
+              <value><![CDATA[Select...]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Resolved - Expected product behavior (How to)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Resolved - Unexpected product behavior (Bug)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Hardware repair needed]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Referred customer (not hardware repair)]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - no solution offered]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - Pending Advisor Commitment]]></value>
+            </option>
+            <option correct="true">
+              <value><![CDATA[Unresolved - solution offered]]></value>
+            </option>
+          </options>
+        </element>
+      </set>
+      <!-- END: iPhone X troubleshooting steps -->
+    </troubleShooting>
+    <additionalNotes name="additionalNotes">
+      <labels>
+        <dockBottom><![CDATA[Dock to bottom]]></dockBottom>
+        <dockRight><![CDATA[Dock to right]]></dockRight>
+        <detach><![CDATA[Detach into separate window]]></detach>
+      </labels>
+      <placeholder><![CDATA[Enter Additional Notes (Optional)]]></placeholder>
+    </additionalNotes>
+    <caseOptions>
+      <button>
+        <label><![CDATA[Save Case]]></label>
+      </button>
+      <element type="nested_dropdown" name="caseType">
+        <options>
+          <option>
+            <value><![CDATA[New Case]]></value>
+          </option>
+          <option>
+            <value><![CDATA[New Email Thread]]></value>
+          </option>
+          <option>
+            <label><![CDATA[Escalation]]></label>
+            <children>
+              <value><![CDATA[Create RTA]]></value>
+              <value><![CDATA[Forward]]></value>
+            </children>
+          </option>
+          <option>
+            <label><![CDATA[Service Options]]></label>
+            <children>
+              <value><![CDATA[Locate Service]]></value>
+            </children>
+          </option>
+          <option>
+            <label><![CDATA[Attachments]]></label>
+            <children>
+              <value><![CDATA[Request Attachment]]></value>
+              <value><![CDATA[Attachment Viewer]]></value>
+            </children>
+          </option>
+          <option>
+            <label><![CDATA[Follow-Ups]]></label>
+            <children>
+              <value><![CDATA[Schedule Call Back]]></value>
+              <value><![CDATA[Create Follow-Up]]></value>
+              <value><![CDATA[Track Case]]></value>
+              <value><![CDATA[Email Case]]></value>
+            </children>
+          </option>
+          <option defaultValue="true">
+            <value><![CDATA[Case Options]]></value>
+          </option>
+        </options>
+      </element>
+    </caseOptions>
+  </data>
+</CoreClassificationPane>

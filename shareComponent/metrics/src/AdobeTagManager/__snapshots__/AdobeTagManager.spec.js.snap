@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdobeTagManager setEventInfo should set event info 1`] = `
+Object {
+  "event": Array [
+    Object {
+      "eventInfo": Object {
+        "eventAction": "larry",
+      },
+    },
+  ],
+  "foo": "bar",
+}
+`;
+
+exports[`AdobeTagManager setEventInfo should set event info 2`] = `
+Object {
+  "event": Array [
+    Object {
+      "eventInfo": Object {
+        "eventAction": "moe",
+      },
+    },
+    Object {
+      "eventInfo": Object {
+        "eventAction": "curly",
+      },
+    },
+  ],
+  "foo": "bar",
+}
+`;
+
+exports[`AdobeTagManager setEventInfo should set event info 3`] = `
+Object {
+  "event": Array [
+    Object {
+      "eventInfo": Object {
+        "eventAction": "larry",
+      },
+    },
+    Object {
+      "eventInfo": Object {
+        "eventAction": "moe",
+      },
+    },
+    Object {
+      "eventInfo": Object {
+        "eventAction": "curly",
+      },
+    },
+  ],
+  "foo": "bar",
+}
+`;

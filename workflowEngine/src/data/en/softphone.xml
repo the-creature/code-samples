@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core_softphone accessible="true" version="1.0">
+  <setup>
+    <missing_consult_group><![CDATA[Missing required field]]></missing_consult_group>
+    <incorrect_feedback><![CDATA[You have not specified the group to consult. Please select a group or enter VDN or phone number.]]></incorrect_feedback>
+    <disabled_title><![CDATA[Disabled UI Element]]></disabled_title>
+    <disabled_msg><![CDATA[The element selected has been disabled in this simulation. Please try selecting another element.]]></disabled_msg>
+    <restart_interaction_button><![CDATA[Reset Case View Simulation]]></restart_interaction_button>
+    <accessibility_labels>
+      <call_info_button_title><![CDATA[Call Info]]></call_info_button_title>
+      <customer_call_label><![CDATA[Customer Call]]></customer_call_label>
+      <escape_text><![CDATA[Press the escape key to close this message.]]></escape_text>
+      <hold_button_title><![CDATA[Hold]]></hold_button_title>
+      <merge_button_title><![CDATA[Merge]]></merge_button_title>
+      <release_button_title><![CDATA[Release]]></release_button_title>
+      <simulation_ended><![CDATA[You have ended the simulation.]]></simulation_ended>
+      <softphone_ui_label><![CDATA[Softphone UI]]></softphone_ui_label>
+      <toggle_mute_button_title><![CDATA[Toggle mute]]></toggle_mute_button_title>
+      <total_call_time_label><![CDATA[Total Call Time]]></total_call_time_label>
+      <total_time_on_call_label><![CDATA[Total time on call]]></total_time_on_call_label>
+      <total_time_on_hold_label><![CDATA[Total time on hold]]></total_time_on_hold_label>
+      <touchtone_keypad_button_title><![CDATA[Touchtone Keypad]]></touchtone_keypad_button_title>
+    </accessibility_labels>
+  </setup>
+  <ui_strings>
+    <!-- BEGIN: Developer specified data -->
+    <developer_specified>
+      <call_overlay type="outbound">
+        <!-- type="inbound/outbound" -->
+        <title><![CDATA[Outbound Call to Customer - Samantha]]></title>
+        <origin><![CDATA[Contact Apple Support]]></origin>
+        <queue><![CDATA[Training and Reporting 012 C2C]]></queue>
+        <third_line><![CDATA[Samantha is eligible for support.]]></third_line>
+      </call_overlay>
+      <starting_caller_name><![CDATA[Samantha Appleseed]]></starting_caller_name>
+      <starting_caller_icon><![CDATA[images/person_icon.png]]></starting_caller_icon>
+      <info_popup>
+        <section_title><![CDATA[Call Info Section]]></section_title>
+        <icon_alt><![CDATA[Incoming call]]></icon_alt>
+        <caller><![CDATA[(You)]]></caller>
+        <call_name><![CDATA[Training and Reporting 012 (Incoming Call)]]></call_name>
+        <call_time>
+          <minute><![CDATA[--]]></minute>
+          <second><![CDATA[--]]></second>
+        </call_time>
+        <line_two_wait_time>
+          <minute><![CDATA[00]]></minute>
+          <second><![CDATA[01]]></second>
+        </line_two_wait_time>
+        <transfers_number><![CDATA[0]]></transfers_number>
+        <wait_time>
+          <minute><![CDATA[00]]></minute>
+          <second><![CDATA[01]]></second>
+        </wait_time>
+        <talk_time>
+          <minute><![CDATA[--]]></minute>
+          <second><![CDATA[--]]></second>
+        </talk_time>
+      </info_popup>
+      <consult_groups>
+        <consult_group type="phone">
+          <name><![CDATA[Agreement Admin]]></name>
+          <wait_time><![CDATA[00:05]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[BlueStar EMEA iPad]]></name>
+          <wait_time><![CDATA[--]]></wait_time>
+          <optional_vdn><![CDATA[VDN 5995028]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Customer Relations]]></name>
+          <wait_time><![CDATA[--]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="chat">
+          <name><![CDATA[Direct Dispatch]]></name>
+          <wait_time><![CDATA[5:10]]></wait_time>
+        </consult_group>
+        <consult_group type="email">
+          <name><![CDATA[SPQA Sonar X - UAT]]></name>
+          <wait_time><![CDATA[24 Hours]]></wait_time>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 1 iTunes Store]]></name>
+          <wait_time><![CDATA[00:54]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 2 AirPort]]></name>
+          <wait_time><![CDATA[01:43]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 2 Desktop]]></name>
+          <wait_time><![CDATA[00:44]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 2 Portables]]></name>
+          <wait_time><![CDATA[04:47]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 2 iOS]]></name>
+          <wait_time><![CDATA[01:30]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+        <consult_group type="phone">
+          <name><![CDATA[Tier 2 Mail]]></name>
+          <wait_time><![CDATA[--]]></wait_time>
+          <optional_vdn><![CDATA[VDN 0000000 (Change in data.xml file)]]></optional_vdn>
+        </consult_group>
+      </consult_groups>
+      <classification_pane>
+        <topic><![CDATA[Forgot Passcode]]></topic>
+        <case_id><![CDATA[10000147182234]]></case_id>
+        <affected_product src="images/ipad.png"><![CDATA[iPad Pro 12.9-inch Wi-Fi]]></affected_product>
+        <component><![CDATA[Feature/Settings]]></component>
+        <issue><![CDATA[Passcode Lock/Auto-Lock]]></issue>
+        <product_serial_number><![CDATA[C03R3014GMLD]]></product_serial_number>
+      </classification_pane>
+    </developer_specified>
+    <!-- END: Developer specified data -->
+    <!--  ///////////////////////////////////////////////////////////////////////////////////////////////////////
+            Core UI strings below - Leave as-is unless edge case (Please contact Multimedia about UI changes)
+            /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <boilerplate>
+      <total_available_time><![CDATA[Total Available Time]]></total_available_time>
+      <available><![CDATA[Available]]></available>
+      <dock_to_bottom_label><![CDATA[Dock to bottom]]></dock_to_bottom_label>
+      <dock_to_right_label><![CDATA[Dock to right]]></dock_to_right_label>
+      <detach_label><![CDATA[Detach into separate window]]></detach_label>
+      <additional_notes_placeholder><![CDATA[Enter Additional Notes (Optional)]]></additional_notes_placeholder>
+      <case_options_button><![CDATA[Case Options &nbsp;<span class="chevron" aria-hidden="true">&rsaquo;</span>]]></case_options_button>
+      <continue_button><![CDATA[Continue]]></continue_button>
+      <close_row_button><![CDATA[Close Row]]></close_row_button>
+      <case_options>
+        <new_case><![CDATA[New Case]]></new_case>
+        <new_email_thread><![CDATA[New Email Thread]]></new_email_thread>
+        <escalation><![CDATA[Escalation]]></escalation>
+        <transfer><![CDATA[Transfer]]></transfer>
+        <misroute><![CDATA[Misroute]]></misroute>
+        <forward><![CDATA[Forward]]></forward>
+        <service_options><![CDATA[Service Options]]></service_options>
+        <locate_service><![CDATA[Locate Service]]></locate_service>
+        <sell_agreement><![CDATA[Sell Agreement]]></sell_agreement>
+        <attachments><![CDATA[Attachments]]></attachments>
+        <request_attachment><![CDATA[Request Attachment]]></request_attachment>
+        <attach_file><![CDATA[Attach File]]></attach_file>
+        <follow_ups><![CDATA[Follow-Ups]]></follow_ups>
+        <schedule_call_back><![CDATA[Schedule Call Back]]></schedule_call_back>
+        <track_case><![CDATA[Track Case]]></track_case>
+        <email_case><![CDATA[Email Case]]></email_case>
+        <case_options_item><![CDATA[<b aria-hidden="true">&#10003;</b> Case Options]]></case_options_item>
+      </case_options>
+      <email_case_button><![CDATA[Email Case]]></email_case_button>
+      <track_case_button><![CDATA[Track Case]]></track_case_button>
+      <next_steps_label><![CDATA[Next Steps]]></next_steps_label>
+      <offer_case_id><![CDATA[Offer Case ID to customer]]></offer_case_id>
+      <case_saved_label><![CDATA[Case Saved:]]></case_saved_label>
+      <comments_label><![CDATA[Comments to Next Advisor (optional)]]></comments_label>
+      <comments_placeholder><![CDATA[Describe steps taken/not taken and any next steps]]></comments_placeholder>
+      <most_common_label><![CDATA[Most Common]]></most_common_label>
+      <address_book_button><![CDATA[View Contacts]]></address_book_button>
+      <caller_input><![CDATA[Select Group or Enter VDN, Phone Number]]></caller_input>
+      <consult_label><![CDATA[Consult with Another Advisor]]></consult_label>
+      <no_consult_option><![CDATA[No Consult]]></no_consult_option>
+      <consult_option><![CDATA[Consult]]></consult_option>
+      <product_label><![CDATA[Product]]></product_label>
+      <product_info_button><![CDATA[Product info]]></product_info_button>
+      <remove_button><![CDATA[Remove]]></remove_button>
+      <edit_button><![CDATA[Edit]]></edit_button>
+      <see_more_button><![CDATA[See More]]></see_more_button>
+      <close_button><![CDATA[Close]]></close_button>
+      <launch_full_screen><![CDATA[Please launch interaction in full screen mode.]]></launch_full_screen>
+      <start_button><![CDATA[Begin Case View Simulation]]></start_button>
+      <softphone><![CDATA[Softphone UI]]></softphone>
+      <total_call_time><![CDATA[Total Call Time]]></total_call_time>
+      <minutes><![CDATA[minutes]]></minutes>
+      <seconds><![CDATA[seconds]]></seconds>
+      <caller_one><![CDATA[Customer call]]></caller_one>
+      <caller_two><![CDATA[Advisor call]]></caller_two>
+      <active_call_time><![CDATA[Total time on call]]></active_call_time>
+      <pause_time><![CDATA[Total time on hold]]></pause_time>
+      <on_hold><![CDATA[On Hold]]></on_hold>
+      <on_mute><![CDATA[On Mute]]></on_mute>
+      <connecting_msg><![CDATA[Connecting...]]></connecting_msg>
+      <caller1_and_caller2_name_connect_label><![CDATA[&nbsp;&amp;&nbsp;]]></caller1_and_caller2_name_connect_label>
+      <exit_instructions><![CDATA[Press the escape key to return.]]></exit_instructions>
+      <origin_label><![CDATA[Origin]]></origin_label>
+      <queue_label><![CDATA[Queue]]></queue_label>
+      <view_case_button><![CDATA[View Case]]></view_case_button>
+      <transfers_label><![CDATA[transfers]]></transfers_label>
+      <wait_label><![CDATA[wait]]></wait_label>
+      <talk_label><![CDATA[talk]]></talk_label>
+      <consult_pane>
+        <consult_input_placeholder><![CDATA[Select Group or Enter VDN, Phone Number]]></consult_input_placeholder>
+        <comments_label><![CDATA[Comments to Next Advisor (optional)]]></comments_label>
+        <comments_placeholder><![CDATA[Describe steps taken/not taken and any next steps]]></comments_placeholder>
+        <available_status><![CDATA[Available]]></available_status>
+        <offline_status><![CDATA[Offline]]></offline_status>
+        <chat_label><![CDATA[Chat]]></chat_label>
+        <phone_label><![CDATA[Phone]]></phone_label>
+        <email_label><![CDATA[Email]]></email_label>
+        <other_label><![CDATA[Other]]></other_label>
+        <most_common_label><![CDATA[Most Common]]></most_common_label>
+        <phone_icon_label><![CDATA[Phone Consult Group]]></phone_icon_label>
+        <chat_icon_label><![CDATA[Chat Consult Group]]></chat_icon_label>
+        <email_icon_label><![CDATA[Email Consult Group]]></email_icon_label>
+        <wait_time_label><![CDATA[Wait time]]></wait_time_label>
+        <consult_button><![CDATA[Consult]]></consult_button>
+      </consult_pane>
+    </boilerplate>
+  </ui_strings>
+</core_softphone>

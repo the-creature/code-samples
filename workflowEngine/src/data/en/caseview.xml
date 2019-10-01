@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caseView>
+  <setup>
+    <accessibility_labels>
+      <top_panel_label><![CDATA[top panel]]></top_panel_label>
+      <customer_actions_label><![CDATA[Customer Actions]]></customer_actions_label>
+      <actions_label><![CDATA[Actions]]></actions_label>
+      <customer_details_label><![CDATA[Customer Details]]></customer_details_label>
+      <details_label><![CDATA[Details]]></details_label>
+      <case_view_label><![CDATA[Case View]]></case_view_label>
+      <products_label><![CDATA[Products]]></products_label>
+      <recent_cases_label><![CDATA[Recent Cases]]></recent_cases_label>
+      <show_filter_label><![CDATA[Show Filter]]></show_filter_label>
+    </accessibility_labels>
+  </setup>
+  <header>
+    <name><![CDATA[Samantha Appleseed]]></name>
+  </header>
+  <customer>
+    <labelTitle><![CDATA[Customer Details]]></labelTitle>
+    <labelName><![CDATA[Name]]></labelName>
+    <labelAppleId><![CDATA[Apple ID]]></labelAppleId>
+    <labelLanguage><![CDATA[Language]]></labelLanguage>
+    <labelPhone><![CDATA[Phone]]></labelPhone>
+    <labelEmail><![CDATA[Email]]></labelEmail>
+    <labelAddress><![CDATA[Address]]></labelAddress>
+    <title><![CDATA[Customer Details]]></title>
+    <name><![CDATA[Samantha Appleseed]]></name>
+    <appleId><![CDATA[sam_appleseed@icloud.com]]></appleId>
+    <language><![CDATA[United States, English]]></language>
+    <phone><![CDATA[+1 (123) 4567890]]></phone>
+    <email><![CDATA[sam_appleseed@icloud.com]]></email>
+    <address><![CDATA[123 4th St, AUSTIN, TX 78727, United States]]></address>
+  </customer>
+  <products>
+    <labelTitle><![CDATA[Products]]></labelTitle>
+    <labelProductDetails><![CDATA[Product Details]]></labelProductDetails>
+    <labelActions><![CDATA[Actions]]></labelActions>
+    <product img="ipad.png">
+      <name><![CDATA[iPad Pro 12.9-inch Wi-Fi]]></name>
+      <serial><![CDATA[C03R3014GMLD]]></serial>
+    </product>
+    <product img="apple.png">
+      <name><![CDATA[iPad Pro 41-inch Wi-Fi]]></name>
+      <serial><![CDATA[K07R3024RMLN]]></serial>
+    </product>
+  </products>
+  <history>
+    <labelTitle><![CDATA[History]]></labelTitle>
+    <labelActions><![CDATA[Actions]]></labelActions>
+    <element type="dropdown" name="caseViewHistorySortBy">
+      <label><![CDATA[Sort By]]></label>
+      <options>
+        <option>
+          <value><![CDATA[Modified Date]]></value>
+        </option>
+        <option correct="true">
+          <value><![CDATA[Created Date]]></value>
+        </option>
+      </options>
+    </element>
+    <element type="dropdown" name="caseViewHistorySortDir">
+      <label><![CDATA[Order]]></label>
+      <options>
+        <option>
+          <value><![CDATA[Descending]]></value>
+        </option>
+        <option correct="true">
+          <value><![CDATA[Ascending]]></value>
+        </option>
+      </options>
+    </element>
+    <historyItem img="icloud.png">
+      <title><![CDATA[...758 Forgot iCloud password]]></title>
+      <details><![CDATA[Other - Calendar issue, iCloud
+          T1 Technical Support Chat, Lauren Lashiec]]></details>
+      <dateinfo><![CDATA[2019-01-10]]></dateinfo>
+      <createdDate><![CDATA[2018-02-11]]></createdDate>
+      <modifiedDate><![CDATA[2019-04-10]]></modifiedDate>
+    </historyItem>
+    <historyItem img="apple-id.png">
+      <title><![CDATA[...172 Pre Case]]></title>
+      <details><![CDATA[CR - Cusomter Relations Tier 2, Training Test2]]></details>
+      <dateinfo><![CDATA[2019-01-14]]></dateinfo>
+      <createdDate><![CDATA[2016-10-10]]></createdDate>
+      <modifiedDate><![CDATA[2019-01-10]]></modifiedDate>
+    </historyItem>
+  </history>
+</caseView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <workflow>
+    <name><![CDATA[Test E]]></name>
+    <steps>
+      <step step="0">
+        <title><![CDATA[Enter a Topic]]></title>
+        <content><![CDATA[Type in Apple in the topic field.]]></content>
+        <target id="classification_main_header_section" type="input" />
+        <buttonText><![CDATA[Hint]]></buttonText>
+        <!-- event type: click, change -->
+        <events>
+          <event type="change" name="topic" />
+        </events>
+        <conditions>
+          <condition field="topic" operator="equals">
+            <value><![CDATA[Apple]]></value>
+          </condition>
+        </conditions>
+        <consequences>
+          <consequence type="nextStep" params=""></consequence>
+        </consequences>
+      </step>
+      <step step="1">
+        <title><![CDATA[Click the Pause Button]]></title>
+        <content><![CDATA[Click the Pause button]]></content>
+        <target id="pause-button-off" type="div" />
+        <buttonText><![CDATA[Hint]]></buttonText>
+        <events>
+          <event type="click" name="pause-button-off" />
+        </events>
+        <!-- reference to names of defined rules above -->
+        <consequences>
+          <consequence type="nextStep" params="" />
+        </consequences>
+      </step>
+      <step step="2">
+        <title><![CDATA[Click on Product info]]></title>
+        <content><![CDATA[Expand Products]]></content>
+        <target id="CaseViewProducts" type="div" />
+        <buttonText><![CDATA[Hint]]></buttonText>
+        <events>
+          <event type="click" name="productAccordionOpen" />
+        </events>
+        <consequences>
+          <consequence type="nextStep" params="" />
+        </consequences>
+      </step>
+      <step>
+        <title><![CDATA[Completed]]></title>
+        <content><![CDATA[You have completed this Workflow]]></content>
+      </step>
+    </steps>
+  </workflow>
+</settings>

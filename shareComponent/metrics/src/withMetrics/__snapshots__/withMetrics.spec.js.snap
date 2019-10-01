@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withMetrics propsMapper should provide metricsProps 1`] = `
+Object {
+  "dispatch": "trackThePage",
+  "metricsProps": Object {
+    "arrivalTime": "16:00",
+    "isUpsell": true,
+  },
+}
+`;

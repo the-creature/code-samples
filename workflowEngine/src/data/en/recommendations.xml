@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recommendations>
+  <setup>
+    <accessibility_labels>
+      <actions_label><![CDATA[Actions]]></actions_label>
+      <issues_label><![CDATA[Issues]]></issues_label>
+      <solutions_label><![CDATA[Solutions]]></solutions_label>
+      <view_all_label><![CDATA[View all Related Issues]]></view_all_label>
+      <create_new_label><![CDATA[Create New Issue]]></create_new_label>
+    </accessibility_labels>
+  </setup>
+  <recommendation display_id="none">
+    <noRecommendations><![CDATA[Begin logging the case to view relevant articles and other helpful content.]]></noRecommendations>
+  </recommendation>
+  <recommendation display_id="apple_id">
+    <solutions>
+      <solutionsTitleImg img="lightbulb.png" />
+      <solutionsTitle><![CDATA[Relevant Articles]]></solutionsTitle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[If you forgot your Apple ID password]]></title>
+        <description><![CDATA[If you have issues when you try to sign in with your Apple ID password, use these steps to reset it and regain access to your account.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+      <solutionsArticle type="procedure">
+        <articleType><![CDATA[INTERNAL – PROCEDURE]]></articleType>
+        <title><![CDATA[Two-factor authentication for Apple ID]]></title>
+        <description><![CDATA[Two-factor authentication is an extra layer of security for your Apple ID designed to ensure that you're the only person who can access your account, even if someone knows your password.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+    </solutions>
+  </recommendation>
+  <recommendation display_id="icloud">
+    <solutions>
+      <solutionsTitleImg img="lightbulb.png" />
+      <solutionsTitle><![CDATA[Relevant Articles]]></solutionsTitle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[If you forgot your Apple ID password]]></title>
+        <description><![CDATA[If you have issues when you try to sign in with your Apple ID password, use these steps to reset it and regain access to your account.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+      <solutionsArticle type="procedure">
+        <articleType><![CDATA[INTERNAL – PROCEDURE]]></articleType>
+        <title><![CDATA[Two-factor authentication for Apple ID]]></title>
+        <description><![CDATA[Two-factor authentication is an extra layer of security for your Apple ID designed to ensure that you're the only person who can access your account, even if someone knows your password.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+    </solutions>
+    <issues>
+      <header>
+        <issueTitleText><![CDATA[Issue]]></issueTitleText>
+        <element type="dropdown" name="IssueTitleSelect">
+          <options>
+            <option>
+              <value><![CDATA[Top Today]]></value>
+            </option>
+            <option>
+              <value><![CDATA[Recently Created]]></value>
+            </option>
+            <option>
+              <value><![CDATA[Helpful]]></value>
+            </option>
+          </options>
+        </element>
+        <issueNew img="create-new-issue.png" />
+        <issueRelated img="view-all-related-issues.png" />
+      </header>
+      <issuesArticle img="security-bug.png">
+        <type><![CDATA[Security Bug]]></type>
+        <title><![CDATA[SECURITY: Unauthorized Find My iPhone action or activation lock.]]></title>
+        <description><![CDATA[Customer reports that an unauthorized use of Find My [Device] is preventing them from using their device. This can include putting the device in lost mode or just having it locked to an account the customer can not access or doesn’t know, so they can not remove the lock.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </issuesArticle>
+      <issuesArticle img="feature-enhancement-request.png">
+        <type><![CDATA[Feature/Enhancement Request]]></type>
+        <title><![CDATA[!ACCT: SIGNUPS: Additional iCloud signups for device]]></title>
+        <description><![CDATA[Customer has used up all three of their account signups on a particular device (for various reasons) and is requesting an additional signup be made available.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </issuesArticle>
+      <issuesArticle img="data-loss-corruption.png">
+        <type><![CDATA[Data Loss/Corruption]]></type>
+        <title><![CDATA[!DATA LOSS - iCloud Drive Data Loss - Unknown cause]]></title>
+        <description><![CDATA[The customer is missing iCloud Drive documents due to an unknown cause. They did not complete any updates or delete any data to cause this.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </issuesArticle>
+    </issues>
+  </recommendation>
+  <recommendation display_id="iphone_xs">
+    <solutions>
+      <solutionsTitleImg img="lightbulb.png" />
+      <solutionsTitle><![CDATA[Relevant Articles]]></solutionsTitle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[How to back up your iPhone, iPad, and iPod touch]]></title>
+        <description><![CDATA[If you back up your iPhone, iPad, or iPod touch, you’ll have a copy of your information to use in case your device is ever replaced, lost, or damaged.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[Get your iPhone, iPad, or iPod touch ready for service]]></title>
+        <description><![CDATA[To protect your information and save time, follow these steps before you get service for your device.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[Restore your iPhone, iPad, or iPod to factory settings]]></title>
+        <description><![CDATA[A factory restore erases the information and settings on your iPhone, iPad, or iPod and installs the latest version of iOS or iPod software.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+    </solutions>
+  </recommendation>
+  <recommendation display_id="non_technical">
+    <solutions>
+      <solutionsTitleImg img="lightbulb.png" />
+      <solutionsTitle><![CDATA[Relevant Articles]]></solutionsTitle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[How to back up your iPhone, iPad, and iPod touch]]></title>
+        <description><![CDATA[If you back up your iPhone, iPad, or iPod touch, you’ll have a copy of your information to use in case your device is ever replaced, lost, or damaged.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+      <solutionsArticle type="HowTo">
+        <articleType><![CDATA[HOW TO]]></articleType>
+        <title><![CDATA[Restore your iPhone, iPad, or iPod to factory settings]]></title>
+        <description><![CDATA[A factory restore erases the information and settings on your iPhone, iPad, or iPod and installs the latest version of iOS or iPod software.]]></description>
+        <moreButton><![CDATA[More]]></moreButton>
+        <lessButton><![CDATA[Less]]></lessButton>
+      </solutionsArticle>
+    </solutions>
+  </recommendation>
+</recommendations>
